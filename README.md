@@ -1,7 +1,16 @@
 # Fruit Ripeness Classification
 
 This project trains YOLOv11 models for fruit ripeness detection/classification.
-Including two training scripts for comparing model performance with and without data augmentation.
+The current system focuses on five fruit types: apple, orange, tomato, banana, and mango.
+Each fruit is classified by ripeness level: unripe, ripe, and overripe.
+
+The repository includes two training scripts for comparing model performance with and without data augmentation.
+
+## Demo
+
+Try the demo on Hugging Face Spaces:
+
+https://huggingface.co/spaces/jerrychen76/fruit-ripeness-recognition
 
 ## Requirements
 
@@ -34,9 +43,9 @@ val: valid/images
 test: test/images
 
 names:
-  0: unripe
-  1: ripe
-  2: overripe
+  0: class_name_0
+  1: class_name_1
+  2: class_name_2
 ```
 
 Adjust the class names and paths according to the actual dataset.
