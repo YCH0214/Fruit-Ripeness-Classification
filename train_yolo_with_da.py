@@ -15,7 +15,7 @@ def main():
     model.train(
         data=yaml_path,
         project=save_project_path,
-        epochs=200,
+        epochs=100,
         imgsz=640,
         batch=64,
         workers=8,
