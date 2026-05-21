@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+.env
+
+.ipynb_checkpoints/
+
+# YOLO training outputs can become large. Keep selected results manually if needed.
+runs/*/weights/last.pt
