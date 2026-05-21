@@ -1,0 +1,28 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 15
+names:
+  - overripe_apple
+  - overripe_banana
+  - overripe_mango
+  - overripe_orange
+  - overripe_tomato
+  - ripe_apple
+  - ripe_banana
+  - ripe_mango
+  - ripe_orange
+  - ripe_tomato
+  - unripe_apple
+  - unripe_banana
+  - unripe_mango
+  - unripe_orange
+  - unripe_tomato
+
+roboflow:
+  workspace: s-workspace-3ua0e
+  project: food_detection-l2jm1-tehqu
+  version: 2
+  license: CC BY 4.0
+  url: https://app.roboflow.com/s-workspace-3ua0e/food_detection-l2jm1-tehqu/2
